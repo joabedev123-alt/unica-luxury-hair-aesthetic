@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+  --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #050505;
+  color: #F4EFE6;
+  font-family: var(--font-jakarta);
+}
+
+body {
+  background-color: #050505;
+  color: #F4EFE6;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2416;
+  border: 1px solid rgba(201, 161, 74, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A14A;
+}
+
+/* Metallic Gold Text */
+.text-gold-metallic {
+  background: linear-gradient(135deg, #8C6725 0%, #D9B966 35%, #F1DB94 50%, #B88A36 75%, #76521C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Metallic Gold Border Glow */
+.border-gold-glow {
+  border-color: rgba(201, 161, 74, 0.3);
+  transition: all 0.3s ease;
+}
+
+.border-gold-glow:hover {
+  border-color: rgba(201, 161, 74, 0.8);
+  box-shadow: 0 0 20px rgba(201, 161, 74, 0.25);
+}
+
+/* Gold Button Hover */
+.btn-gold-primary {
+  background: linear-gradient(135deg, #9C762C 0%, #C9A14A 50%, #D8B86A 100%);
+  color: #050505;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 20px rgba(201, 161, 74, 0.25);
+}
+
+.btn-gold-primary:hover {
+  background: linear-gradient(135deg, #C9A14A 0%, #D8B86A 50%, #F1DB94 100%);
+  box-shadow: 0 6px 25px rgba(201, 161, 74, 0.45);
+  transform: translateY(-2px);
+}
+
+.btn-gold-outline {
+  background: transparent;
+  border: 1px solid #C9A14A;
+  color: #D8B86A;
+  transition: all 0.3s ease;
+}
+
+.btn-gold-outline:hover {
+  background: rgba(201, 161, 74, 0.1);
+  border-color: #D8B86A;
+  color: #FFFFFF;
+  box-shadow: 0 0 15px rgba(201, 161, 74, 0.2);
+  transform: translateY(-1px);
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #C9A14A;
+  color: #050505;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}

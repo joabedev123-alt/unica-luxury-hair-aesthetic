@@ -227,14 +227,15 @@ export default function LandingPage() {
               </a>
             </div>
 
-            <div className="lg:col-span-5 relative h-[380px] sm:h-[460px] border-2 border-[#C9A14A]/50 shadow-gold-glow group overflow-hidden bg-[#050505]">
+            <div className="lg:col-span-5 relative h-[420px] sm:h-[500px] border-2 border-[#C9A14A]/50 shadow-gold-glow group overflow-hidden bg-[#050505]">
               <Image
                 src="/images/couple_founders.jpeg"
                 alt="Charley Castelo & Dr. Nirza García Valdéz - Founders of Única"
                 fill
-                className="object-contain p-2 transition-transform duration-700 group-hover:scale-105"
+                className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
                 priority
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent opacity-40" />
               <div className="absolute top-4 left-4 z-10 bg-[#050505]/90 border border-[#C9A14A]/40 text-[#C9A14A] text-[10px] uppercase font-bold tracking-widest px-3.5 py-1 backdrop-blur-md">
                 Founders of Única
               </div>

@@ -179,38 +179,89 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 3. Press & Media Recognition Section */}
-      <section className="py-20 md:py-28 bg-[#050505] border-b border-[#C9A14A]/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            eyebrow="INTERNATIONAL MEDIA"
-            title="Featured in International Press"
-            subtitle="Explore the global coverage of 'Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética' across leading media outlets."
-          />
+      {/* 3. High-Impact Press & Media Recognition Section */}
+      <section className="py-20 md:py-28 bg-[#050505] relative border-b border-[#C9A14A]/30 overflow-hidden">
+        {/* Background Glow */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-[#C9A14A]/5 blur-[120px] pointer-events-none rounded-full" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-[#0B0B0B] border border-[#C9A14A]/40 text-xs font-semibold tracking-[0.25em] text-[#C9A14A] uppercase mb-4 shadow-luxury-card">
+              <i className="bi bi-award-fill text-[#C9A14A]" />
+              <span>IMPRENSA INTERNACIONAL & FORBES</span>
+            </div>
+
+            <h2 className="text-3xl md:text-5xl font-serif text-[#FFFFFF] font-normal leading-tight mb-4">
+              Conforme divulgado na imprensa internacional
+            </h2>
+            <p className="text-lg md:text-2xl font-serif italic text-[#D8B86A] max-w-3xl mx-auto leading-relaxed">
+              &ldquo;Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética&rdquo;
+            </p>
+            <GoldDivider className="mx-auto mt-6" />
+          </div>
+
+          {/* Forbes Spotlight Hero Box */}
+          <div className="bg-gradient-to-r from-[#141414] via-[#0B0B0B] to-[#141414] border-2 border-[#C9A14A] p-8 md:p-10 mb-12 shadow-gold-glow relative overflow-hidden group">
+            <div className="absolute top-0 right-0 bg-[#C9A14A] text-[#050505] text-[10px] uppercase font-bold tracking-widest px-4 py-1">
+              Destaque Especial • Forbes
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-8">
+                <span className="text-xs font-bold tracking-[0.3em] text-[#C9A14A] uppercase block mb-2 font-sans">
+                  FORBES LATINA
+                </span>
+                <h3 className="text-2xl md:text-3xl font-serif text-[#FFFFFF] mb-3 leading-snug">
+                  Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética
+                </h3>
+                <p className="text-sm text-[#A6A6A6] font-light leading-relaxed mb-4">
+                  Confira a reportagem em destaque na Forbes Latina sobre a trajetória da Dra. Nirza García Valdéz e Charley Castelo, unindo ciência cirúrgica, estética avançada e a técnica exclusiva Mega Hair Tela.
+                </p>
+              </div>
+
+              <div className="lg:col-span-4 flex justify-start lg:justify-end">
+                <a
+                  href="https://forbeslatina.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="py-4 px-8 btn-gold-primary text-xs uppercase tracking-[0.2em] font-semibold flex items-center gap-3 shadow-lg"
+                >
+                  <i className="bi bi-box-arrow-up-right text-sm" />
+                  <span>Ler Matéria na Forbes</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Complete 12 Media Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
             {siteConfig.pressArticles.map((article, idx) => (
               <a
                 key={idx}
                 href={article.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#0B0B0B] border border-[#1D1D1D] p-5 hover:border-[#C9A14A]/80 hover:bg-[#141414] transition-all duration-300 group flex flex-col justify-between shadow-luxury-card"
+                className={`p-6 flex flex-col justify-between transition-all duration-300 group shadow-luxury-card border ${
+                  article.isFeatured
+                    ? 'bg-[#141414] border-[#C9A14A] hover:border-[#D8B86A]'
+                    : 'bg-[#0B0B0B] border-[#1D1D1D] hover:border-[#C9A14A]/70 hover:bg-[#141414]'
+                }`}
               >
                 <div>
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="text-[10px] uppercase tracking-widest text-[#C9A14A] font-bold">
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-xs uppercase tracking-[0.2em] text-[#C9A14A] font-bold">
                       {article.portal}
                     </span>
                     <i className="bi bi-box-arrow-up-right text-xs text-[#A6A6A6] group-hover:text-[#C9A14A] transition-colors" />
                   </div>
-                  <h4 className="text-xs text-[#F4EFE6] font-serif leading-snug group-hover:text-[#D8B86A] transition-colors line-clamp-2">
+                  <h4 className="text-xs text-[#E9E0D2] font-serif leading-relaxed group-hover:text-[#FFFFFF] transition-colors mb-4">
                     &ldquo;Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética&rdquo;
                   </h4>
                 </div>
-                <div className="mt-4 pt-3 border-t border-[#1D1D1D] flex items-center gap-1.5 text-[10px] text-[#A6A6A6] uppercase tracking-wider group-hover:text-[#C9A14A] transition-colors">
-                  <span>Read Article</span>
-                  <i className="bi bi-arrow-right text-xs transition-transform group-hover:translate-x-1" />
+
+                <div className="pt-4 border-t border-[#1D1D1D] flex items-center justify-between text-xs font-semibold text-[#C9A14A] uppercase tracking-wider group-hover:text-[#D8B86A] transition-colors">
+                  <span>Ler</span>
+                  <i className="bi bi-arrow-right text-sm transition-transform group-hover:translate-x-1" />
                 </div>
               </a>
             ))}

@@ -231,14 +231,18 @@ export default function LandingPage() {
           </div>
 
           {/* Press Banner / As Featured In */}
-          <div className="mt-20 pt-12 border-t border-[#C9A14A]/30">
+          <div className="mt-20 pt-12 border-t border-[#C9A14A]/40">
             <div className="text-center mb-8">
-              <span className="text-xs uppercase tracking-[0.3em] text-[#C9A14A] font-bold">
-                AS FEATURED IN INTERNATIONAL PRESS
-              </span>
-              <h3 className="text-lg md:text-xl font-serif text-[#FFFFFF] mt-2">
-                &ldquo;Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética&rdquo;
+              <div className="inline-flex items-center gap-2 px-3.5 py-1 bg-[#141414] border border-[#C9A14A]/40 text-[11px] font-semibold tracking-[0.25em] text-[#C9A14A] uppercase mb-3">
+                <i className="bi bi-award-fill text-[#C9A14A]" />
+                <span>FORBES LATINA & IMPRENSA INTERNACIONAL</span>
+              </div>
+              <h3 className="text-xl md:text-3xl font-serif text-[#FFFFFF] mt-1">
+                Conforme divulgado na imprensa internacional
               </h3>
+              <p className="text-sm md:text-base font-serif italic text-[#D8B86A] mt-2">
+                &ldquo;Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética&rdquo;
+              </p>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
@@ -248,14 +252,20 @@ export default function LandingPage() {
                   href={article.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-[#0B0B0B] border border-[#1D1D1D] p-3 text-center hover:border-[#C9A14A]/60 hover:bg-[#141414] transition-all duration-300 group"
+                  className={`p-3.5 text-center transition-all duration-300 group flex flex-col justify-between border ${
+                    article.isFeatured
+                      ? 'bg-[#141414] border-[#C9A14A] shadow-gold-glow'
+                      : 'bg-[#0B0B0B] border-[#1D1D1D] hover:border-[#C9A14A]/60 hover:bg-[#141414]'
+                  }`}
                 >
-                  <span className="text-[11px] font-semibold text-[#D8B86A] block group-hover:text-[#FFFFFF] transition-colors truncate">
-                    {article.portal}
-                  </span>
-                  <span className="text-[9px] uppercase tracking-wider text-[#A6A6A6] group-hover:text-[#C9A14A] flex items-center justify-center gap-1 mt-1">
-                    <span>Read</span>
-                    <i className="bi bi-box-arrow-up-right text-[8px]" />
+                  <div>
+                    <span className="text-[11px] font-bold text-[#C9A14A] block truncate mb-1">
+                      {article.portal}
+                    </span>
+                  </div>
+                  <span className="text-[10px] uppercase font-semibold tracking-widest text-[#E9E0D2] group-hover:text-[#C9A14A] flex items-center justify-center gap-1 mt-2 pt-2 border-t border-[#1D1D1D]/80">
+                    <span>Ler</span>
+                    <i className="bi bi-arrow-right text-[10px] group-hover:translate-x-0.5 transition-transform" />
                   </span>
                 </a>
               ))}

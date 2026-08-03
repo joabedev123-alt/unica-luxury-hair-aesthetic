@@ -23,6 +23,7 @@ export interface ProjectItem {
 export interface PressArticle {
   portal: string;
   url: string;
+  isFeatured?: boolean;
 }
 
 export const siteConfig = {
@@ -54,18 +55,18 @@ export const siteConfig = {
   },
 
   pressArticles: [
-    { portal: "Forbes Latina", url: "https://forbeslatina.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "Istoé Negócios", url: "https://istoenegocios.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "Folha Negócios", url: "https://folhanegocios.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "Handelsblatt Brasil", url: "https://handelsblatt.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "Look Magazine", url: "https://lookmagazine.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "People Brasil", url: "https://peoplebrasil.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "Success Magazine", url: "https://successmagazine.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "US News Brasil", url: "https://usnews.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "Correio do Ceará", url: "https://correiodoceara.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "Jornal do Recife", url: "https://jornaldorecife.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "Correio do Pará", url: "https://correiodopara.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
-    { portal: "Jurídico News", url: "https://juridico.news/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Forbes Latina", isFeatured: true, url: "https://forbeslatina.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Istoé Negócios", isFeatured: false, url: "https://istoenegocios.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Folha Negócios", isFeatured: false, url: "https://folhanegocios.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Handelsblatt Brasil", isFeatured: false, url: "https://handelsblatt.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Revista Look", isFeatured: false, url: "https://lookmagazine.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Pessoas Brasil", isFeatured: false, url: "https://peoplebrasil.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Revista Success", isFeatured: false, url: "https://successmagazine.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "US News Brasil", isFeatured: false, url: "https://usnews.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Correio do Ceará", isFeatured: false, url: "https://correiodoceara.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Jornal do Recife", isFeatured: false, url: "https://jornaldorecife.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Correio do Pará", isFeatured: false, url: "https://correiodopara.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Notícias Jurídicas", isFeatured: false, url: "https://juridico.news/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
   ] as PressArticle[],
   
   contact: {

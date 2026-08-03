@@ -9,7 +9,7 @@ import { PriceCard } from '@/components/PriceCard';
 export const metadata: Metadata = {
   title: 'Hair, Brow and Aesthetic Services | Única Guyana',
   description:
-    'Explore complete pricing and services for Mega Hair Tela Technique, Microblading, Hybrid Brows, Lip Blush, Eyeliner Tattoo and Barber Grooming in Georgetown, Guyana.',
+    'Explore complete services for Mega Hair Tela Technique, Microblading, Hybrid Brows, Lip Blush, Eyeliner Tattoo and Barber Grooming in Georgetown, Guyana.',
 };
 
 export default function ServicesPage() {
@@ -168,7 +168,7 @@ export default function ServicesPage() {
         <div className="max-w-3xl mx-auto px-4">
           <i className="bi bi-[#C9A14A] bi-shield-exclamation text-2xl text-[#C9A14A] mb-3 block" />
           <p className="text-xs md:text-sm text-[#A6A6A6] font-light leading-relaxed">
-            All prices are listed in Guyanese dollars — GYD. Prices, availability and service suitability must be confirmed directly with Única before booking.
+            Service availability, suitability and personalized estimates are confirmed directly with Única upon consultation before booking.
           </p>
         </div>
       </section>

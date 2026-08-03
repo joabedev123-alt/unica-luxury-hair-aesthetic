@@ -9,7 +9,7 @@ import { GoldDivider } from '@/components/GoldDivider';
 export const metadata: Metadata = {
   title: 'About Única and Chay Castelo | Guyana',
   description:
-    'Learn about Única Luxury Hair & Aesthetic and specialist Chay Castelo. Premium hair extensions, brow aesthetics and personalized care in Lusignan, Georgetown, Guyana.',
+    'Learn about Única Hair Extensions and specialist Chay Castelo. Premium hair extensions, brow aesthetics and personalized care in Lusignan, Georgetown, Guyana.',
 };
 
 export default function AboutPage() {
@@ -38,7 +38,7 @@ export default function AboutPage() {
                 showDivider={true}
               />
               <p className="text-base text-[#A6A6A6] font-light leading-relaxed mb-6">
-                Única Luxury Hair & Aesthetic was created as a space where each client can experience personalized beauty services in an elegant and welcoming environment. Every detail is designed to support confidence, individuality and refined results.
+                Única Hair Extensions was created as a space where each client can experience personalized beauty services in an elegant and welcoming environment. Every detail is designed to support confidence, individuality and refined results.
               </p>
               <p className="text-sm text-[#A6A6A6] font-light leading-relaxed">
                 Whether you seek a subtle brow correction, an executive haircut, or a complete hair length transformation, Única guarantees precision, safety, and natural elegance.

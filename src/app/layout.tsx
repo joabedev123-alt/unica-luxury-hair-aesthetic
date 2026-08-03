@@ -7,11 +7,11 @@ import { StructuredData } from '@/components/StructuredData';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Única Luxury Hair & Aesthetic | Hair and Beauty in Guyana',
-    template: '%s | Única Luxury Hair & Aesthetic',
+    default: 'Única Hair Extensions | Hair and Beauty in Guyana',
+    template: '%s | Única Hair Extensions',
   },
   description:
-    'Discover personalized hair extensions, brow, permanent makeup, aesthetic and barber services at Única Luxury Hair & Aesthetic in Georgetown, Guyana.',
+    'Discover personalized hair extensions, brow, permanent makeup, aesthetic and barber services at Única Hair Extensions in Georgetown, Guyana.',
   keywords: [
     'Luxury hair salon Guyana',
     'Hair extensions Guyana',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'Lip blush Guyana',
     'Barber services Lusignan',
     'Hair salon East Coast Demerara',
-    'Única Luxury Hair & Aesthetic',
+    'Única Hair Extensions',
     'Chay Castelo',
     'Mega Hair Tela Technique',
   ],
@@ -33,10 +33,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://unicaguyana.com',
-    title: 'Única Luxury Hair & Aesthetic | Hair and Beauty in Guyana',
+    title: 'Única Hair Extensions | Hair and Beauty in Guyana',
     description:
-      'Discover personalized hair extensions, brow, permanent makeup, aesthetic and barber services at Única Luxury Hair & Aesthetic in Georgetown, Guyana.',
-    siteName: 'Única Luxury Hair & Aesthetic',
+      'Discover personalized hair extensions, brow, permanent makeup, aesthetic and barber services at Única Hair Extensions in Georgetown, Guyana.',
+    siteName: 'Única Hair Extensions',
     images: [
       {
         url: '/images/logo.jpeg',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Única Luxury Hair & Aesthetic | Guyana',
+    title: 'Única Hair Extensions | Guyana',
     description:
       'Personalized hair extensions, brows, permanent makeup and barber services by Chay Castelo.',
     images: ['/images/logo.jpeg'],

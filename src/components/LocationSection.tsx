@@ -18,7 +18,7 @@ export const LocationSection: React.FC = () => {
           <div className="lg:col-span-5 relative h-96 lg:h-[450px] overflow-hidden border border-[#C9A14A]/40 shadow-luxury-card group">
             <Image
               src="/images/salon_exterior.png"
-              alt="Única Luxury Hair & Aesthetic Salon Exterior"
+              alt="Única Hair Extensions Salon Exterior"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
             />

@@ -80,7 +80,7 @@ export default function LandingPage() {
             </div>
 
             <span className="block text-xs md:text-sm font-semibold tracking-[0.3em] text-[#D8B86A] uppercase mb-3 font-sans">
-              ÚNICA LUXURY HAIR & AESTHETIC
+              ÚNICA HAIR EXTENSIONS
             </span>
 
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-serif text-[#FFFFFF] font-normal leading-[1.1] mb-6 tracking-tight">
@@ -164,7 +164,7 @@ export default function LandingPage() {
             <div className="lg:col-span-6 relative h-[420px] md:h-[500px] border border-[#C9A14A]/40 shadow-luxury-card group overflow-hidden">
               <Image
                 src="/images/salon_exterior.png"
-                alt="Única Luxury Hair & Aesthetic Destination"
+                alt="Única Hair Extensions Destination"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -182,10 +182,10 @@ export default function LandingPage() {
                 showDivider={true}
               />
               <p className="text-sm md:text-base text-[#A6A6A6] font-light leading-relaxed mb-6">
-                At Única Luxury Hair & Aesthetic, every service is approached with care, personalization and attention to detail. From premium hair transformations to refined aesthetic treatments, our goal is to create results that feel elegant, natural and uniquely yours.
+                At Única Hair Extensions, every service is approached with care, personalization and attention to detail. From premium hair transformations to refined aesthetic treatments, our goal is to create results that feel elegant, natural and uniquely yours.
               </p>
               <p className="text-xs md:text-sm text-[#A6A6A6] font-light leading-relaxed mb-8">
-                Única Luxury Hair & Aesthetic was created as a space where each client can experience personalized beauty services in an elegant and welcoming environment. Every detail is designed to support confidence, individuality and refined results.
+                Única Hair Extensions was created as a space where each client can experience personalized beauty services in an elegant and welcoming environment. Every detail is designed to support confidence, individuality and refined results.
               </p>
               <a
                 href="#services"
@@ -340,12 +340,12 @@ export default function LandingPage() {
       </section>
 
       {/* ================================================== */}
-      {/* 5. SERVICES & PRICES IN GYD (#services) */}
+      {/* 5. SERVICES CATALOG (#services) */}
       {/* ================================================== */}
       <section id="services" className="py-20 md:py-28 bg-[#050505] relative border-b border-[#1D1D1D]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            eyebrow="PRICE LIST & CATALOG"
+            eyebrow="SERVICES & CATALOG"
             title="Luxury Services, Personalized for You"
             subtitle="Explore our complete menu of hair extensions, permanent aesthetics, and grooming in Georgetown, Guyana."
           />
@@ -377,10 +377,10 @@ export default function LandingPage() {
             </ul>
           </div>
 
-          {/* Mandatory Price Disclaimer */}
+          {/* Consultation Disclaimer */}
           <div className="text-center max-w-2xl mx-auto">
             <p className="text-xs text-[#A6A6A6] font-light italic">
-              All prices are listed in Guyanese dollars — GYD. Prices, availability and service suitability must be confirmed directly with Única before booking.
+              Service availability, suitability and personalized estimates are confirmed directly with Única upon consultation before booking.
             </p>
           </div>
         </div>

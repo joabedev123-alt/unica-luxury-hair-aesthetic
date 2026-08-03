@@ -23,7 +23,7 @@ export const StructuredData: React.FC = () => {
       longitude: -58.077222,
     },
     url: 'https://unicaguyana.com',
-    priceRange: 'GYD 4000 - GYD 60000',
+    priceRange: '$$$',
     employee: {
       '@type': 'Person',
       name: siteConfig.specialist,

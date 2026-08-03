@@ -26,7 +26,7 @@ export const PriceCard: React.FC<PriceCardProps> = ({ service }) => {
       )}
 
       <div>
-        {/* Header Title & Price */}
+        {/* Header Title */}
         <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 mb-4 pb-4 border-b border-[#1D1D1D]">
           <div>
             <h3 className="text-xl md:text-2xl font-serif text-[#FFFFFF] leading-snug">
@@ -40,16 +40,13 @@ export const PriceCard: React.FC<PriceCardProps> = ({ service }) => {
           </div>
 
           <div className="text-left sm:text-right shrink-0">
-            <div className="text-xl md:text-2xl font-serif font-bold text-[#C9A14A]">
-              {service.currency && service.currency === 'GYD' ? (
-                <span>GYD {service.price}</span>
-              ) : (
-                <span>{service.price}</span>
-              )}
-            </div>
-            {service.currency && (
-              <span className="text-[10px] text-[#A6A6A6] uppercase tracking-widest block mt-0.5">
-                Guyanese Dollar
+            {service.price ? (
+              <div className="text-xl md:text-2xl font-serif font-bold text-[#C9A14A]">
+                {service.currency && service.currency === 'GYD' ? `GYD ${service.price}` : service.price}
+              </div>
+            ) : (
+              <span className="text-[10px] uppercase tracking-[0.2em] text-[#C9A14A] font-semibold border border-[#C9A14A]/40 px-2.5 py-1 inline-block bg-[#050505]">
+                Upon Consultation
               </span>
             )}
           </div>

@@ -51,7 +51,7 @@ export const Header: React.FC = () => {
                 ÚNICA
               </span>
               <span className="text-[9px] md:text-[10px] tracking-[0.25em] text-[#C9A14A] uppercase font-sans">
-                Luxury Hair & Aesthetic
+                Hair Extensions
               </span>
             </div>
           </Link>

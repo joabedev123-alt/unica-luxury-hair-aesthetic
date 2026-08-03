@@ -35,7 +35,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
               ÚNICA
             </span>
             <span className="text-[9px] tracking-widest text-[#C9A14A] uppercase">
-              Luxury Hair & Aesthetic
+              Hair Extensions
             </span>
           </div>
         </Link>

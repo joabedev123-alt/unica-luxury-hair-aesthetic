@@ -235,7 +235,7 @@ export const ContactForm: React.FC = () => {
             className="mt-1 accent-[#C9A14A] w-4 h-4 cursor-pointer"
           />
           <label htmlFor="consent" className="text-xs text-[#A6A6A6] cursor-pointer leading-relaxed">
-            I agree to send this request to Única Luxury Hair & Aesthetic via WhatsApp and understand that final eligibility & appointment availability will be confirmed upon review.
+            I agree to send this request to Única Hair Extensions via WhatsApp and understand that final eligibility & appointment availability will be confirmed upon review.
           </label>
         </div>
 

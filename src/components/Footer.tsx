@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
                   ÚNICA
                 </span>
                 <span className="text-[9px] tracking-[0.25em] text-[#C9A14A] uppercase font-sans">
-                  Luxury Hair & Aesthetic
+                  Hair Extensions
                 </span>
               </div>
             </Link>
@@ -164,7 +164,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Line & Copyright */}
         <div className="pt-8 border-t border-[#1D1D1D] flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left text-xs text-[#A6A6A6]">
-          <p>© {currentYear} Única Luxury Hair & Aesthetic. All rights reserved.</p>
+          <p>© {currentYear} Única Hair Extensions. All rights reserved.</p>
           <p className="text-[11px] text-[#A6A6A6]/70">
             Georgetown, Guyana • Designed with Precision & Elegance
           </p>

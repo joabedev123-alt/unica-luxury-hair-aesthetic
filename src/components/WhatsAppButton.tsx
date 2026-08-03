@@ -11,7 +11,7 @@ export const WhatsAppButton: React.FC = () => {
   )}`;
 
   return (
-    <div className="fixed bottom-6 right-6 z-40 flex items-center group">
+    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex items-center group">
       {/* Tooltip on Desktop */}
       <div
         className={`hidden md:block mr-3 px-3.5 py-2 bg-[#0B0B0B]/95 text-[#F4EFE6] text-xs rounded border border-[#C9A14A]/40 shadow-luxury-card backdrop-blur-md transition-all duration-300 pointer-events-none ${
@@ -30,10 +30,10 @@ export const WhatsAppButton: React.FC = () => {
         aria-label="Chat on WhatsApp with Única"
         onMouseEnter={() => setShowTooltip(true)}
         onMouseLeave={() => setShowTooltip(false)}
-        className="relative w-14 h-14 bg-[#25D366] hover:bg-[#20bd5a] text-white rounded-full flex items-center justify-center shadow-lg border-2 border-[#C9A14A]/60 hover:border-[#D8B86A] transition-all duration-300 transform hover:scale-105"
+        className="relative w-12 h-12 sm:w-14 sm:h-14 bg-[#25D366] hover:bg-[#20bd5a] text-white rounded-full flex items-center justify-center shadow-lg border-2 border-[#C9A14A]/60 hover:border-[#D8B86A] transition-all duration-300 transform active:scale-95 sm:hover:scale-105"
       >
-        <i className="bi bi-whatsapp text-2xl" />
-        <span className="absolute -top-1 -right-1 w-3.5 h-3.5 bg-[#C9A14A] rounded-full border-2 border-[#050505]" />
+        <i className="bi bi-whatsapp text-xl sm:text-2xl" />
+        <span className="absolute -top-1 -right-1 w-3 h-3 sm:w-3.5 sm:h-3.5 bg-[#C9A14A] rounded-full border-2 border-[#050505]" />
       </a>
     </div>
   );

@@ -11,7 +11,7 @@ interface InternalPageHeroProps {
 export const InternalPageHero: React.FC<InternalPageHeroProps> = ({
   title,
   subtitle,
-  eyebrow = "ÚNICA LUXURY HAIR & AESTHETIC",
+  eyebrow = "ÚNICA HAIR EXTENSIONS",
   bgImage = "/images/chay_castelo_hero.png",
 }) => {
   return (

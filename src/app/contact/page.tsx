@@ -6,9 +6,9 @@ import { SectionHeading } from '@/components/SectionHeading';
 import { ContactForm } from '@/components/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Contact Única Luxury Hair & Aesthetic | Georgetown',
+  title: 'Contact Única Hair Extensions | Georgetown',
   description:
-    'Schedule a consultation with Chay Castelo at Única Luxury Hair & Aesthetic in Lusignan, East Coast Demerara, Georgetown, Guyana. Direct WhatsApp and location directions.',
+    'Schedule a consultation with Chay Castelo at Única Hair Extensions in Lusignan, East Coast Demerara, Georgetown, Guyana. Direct WhatsApp and location directions.',
 };
 
 export default function ContactPage() {

@@ -28,8 +28,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, onSelect }) =
           {project.categoryLabel}
         </div>
 
-        {/* Hover Zoom Icon */}
-        <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-[#050505]/70 border border-[#C9A14A]/40 text-[#C9A14A] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform scale-90 group-hover:scale-100">
+        {/* Expand Icon */}
+        <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-[#050505]/80 border border-[#C9A14A]/40 text-[#C9A14A] flex items-center justify-center opacity-90 sm:opacity-0 sm:group-hover:opacity-100 transition-all duration-300 transform scale-100 sm:scale-90 sm:group-hover:scale-100">
           <i className="bi bi-arrows-angle-expand text-xs" />
         </div>
 

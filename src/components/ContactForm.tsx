@@ -117,7 +117,7 @@ export const ContactForm: React.FC = () => {
               onChange={handleChange}
               placeholder="e.g. Sarah Jenkins"
               required
-              className="w-full bg-[#141414] border border-[#1D1D1D] focus:border-[#C9A14A] text-[#F4EFE6] px-4 py-3 text-sm rounded-none outline-none transition-colors"
+              className="w-full bg-[#141414] border border-[#1D1D1D] focus:border-[#C9A14A] text-[#F4EFE6] px-4 py-3.5 text-base sm:text-sm rounded-none outline-none transition-colors"
             />
           </div>
 
@@ -133,7 +133,7 @@ export const ContactForm: React.FC = () => {
               onChange={handleChange}
               placeholder="e.g. +592 700 0000"
               required
-              className="w-full bg-[#141414] border border-[#1D1D1D] focus:border-[#C9A14A] text-[#F4EFE6] px-4 py-3 text-sm rounded-none outline-none transition-colors"
+              className="w-full bg-[#141414] border border-[#1D1D1D] focus:border-[#C9A14A] text-[#F4EFE6] px-4 py-3.5 text-base sm:text-sm rounded-none outline-none transition-colors"
             />
           </div>
         </div>
@@ -151,7 +151,7 @@ export const ContactForm: React.FC = () => {
               value={formData.email}
               onChange={handleChange}
               placeholder="e.g. sarah@example.com"
-              className="w-full bg-[#141414] border border-[#1D1D1D] focus:border-[#C9A14A] text-[#F4EFE6] px-4 py-3 text-sm rounded-none outline-none transition-colors"
+              className="w-full bg-[#141414] border border-[#1D1D1D] focus:border-[#C9A14A] text-[#F4EFE6] px-4 py-3.5 text-base sm:text-sm rounded-none outline-none transition-colors"
             />
           </div>
 
@@ -187,7 +187,7 @@ export const ContactForm: React.FC = () => {
               name="preferredDate"
               value={formData.preferredDate}
               onChange={handleChange}
-              className="w-full bg-[#141414] border border-[#1D1D1D] focus:border-[#C9A14A] text-[#F4EFE6] px-4 py-3 text-sm rounded-none outline-none transition-colors"
+              className="w-full bg-[#141414] border border-[#1D1D1D] focus:border-[#C9A14A] text-[#F4EFE6] px-4 py-3.5 text-base sm:text-sm rounded-none outline-none transition-colors"
             />
           </div>
 
@@ -202,7 +202,7 @@ export const ContactForm: React.FC = () => {
               value={formData.preferredTime}
               onChange={handleChange}
               placeholder="e.g. Morning / 2:00 PM"
-              className="w-full bg-[#141414] border border-[#1D1D1D] focus:border-[#C9A14A] text-[#F4EFE6] px-4 py-3 text-sm rounded-none outline-none transition-colors"
+              className="w-full bg-[#141414] border border-[#1D1D1D] focus:border-[#C9A14A] text-[#F4EFE6] px-4 py-3.5 text-base sm:text-sm rounded-none outline-none transition-colors"
             />
           </div>
         </div>

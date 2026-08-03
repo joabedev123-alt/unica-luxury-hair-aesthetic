@@ -20,13 +20,53 @@ export interface ProjectItem {
   serviceUsed: string;
 }
 
+export interface PressArticle {
+  portal: string;
+  url: string;
+}
+
 export const siteConfig = {
   name: "ÚNICA",
   subtitle: "Hair Extensions",
   fullName: "Única Hair Extensions",
-  specialist: "Chay Castelo",
+  specialist: "Chay Castelo & Dra. Nirza García Valdéz",
   slogan: "More than beauty. A signature experience.",
   positioning: "A premium hair and aesthetics destination focused on personalized service, natural-looking transformations, precision and exclusivity.",
+
+  founders: {
+    title: "Una Pareja, Una Visión: Revolucionar el Mundo del Cabello y la Belleza Estética",
+    chay: {
+      name: "Charley Froz Castelo (Chay Castelo)",
+      role: "Founder & Master Hair Stylist",
+      origin: "Porto de Moz, Pará (Brazil)",
+      credentials: ["Toni & Guy", "Llongueras", "Mod’s Hair"],
+      titleRecognition: "Soul Global Ambassador (2026)",
+      bio: "Nascido em Porto de Moz, no interior do Brasil, Charley Castelo superou graves adversidades da juventude e desafios econômicos até se tornar uma referência internacional na beleza. Autodidata a partir de 2009, aperfeiçoou-se nas mais prestigiadas academias da Europa e do Brasil, criando a renomada técnica Chay Castelo Mega Hair Tela Technique. Em 2026, foi nomeado Embaixador Global da Soul.",
+    },
+    nirza: {
+      name: "Dra. Nirza García Valdéz",
+      role: "Co-Founder & Aesthetic Medicine Specialist",
+      origin: "Bayamo, Cuba",
+      credentials: ["Medicina (Havana, 2014)", "Cirurgia Geral (2018)", "Beauty Angels Academy (USA)"],
+      languages: "Fluente em 5 idiomas",
+      bio: "Graduada em Medicina em Havana (2014) e especialista em Cirurgia Geral (2018), Dra. Nirza dedicou anos de sua vida ao serviço médico e humanitário pela Amazônia boliviana, África e Guiana, onde atuou como uma das poucas cirurgiãs cubanas no principal hospital do país. Expandiu sua atuação para a micropigmentação estética e estética avançada certificada pela Beauty Angels Academy dos Estados Unidos, trazendo rigor científico, biossegurança e precisão cirúrgica para a Única.",
+    },
+  },
+
+  pressArticles: [
+    { portal: "Forbes Latina", url: "https://forbeslatina.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Istoé Negócios", url: "https://istoenegocios.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Folha Negócios", url: "https://folhanegocios.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Handelsblatt Brasil", url: "https://handelsblatt.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Look Magazine", url: "https://lookmagazine.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "People Brasil", url: "https://peoplebrasil.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Success Magazine", url: "https://successmagazine.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "US News Brasil", url: "https://usnews.com.br/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Correio do Ceará", url: "https://correiodoceara.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Jornal do Recife", url: "https://jornaldorecife.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Correio do Pará", url: "https://correiodopara.com/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+    { portal: "Jurídico News", url: "https://juridico.news/una-pareja-una-vision-revolucionar-el-mundo-del-cabello-y-la-belleza-estetica/" },
+  ] as PressArticle[],
   
   contact: {
     phone: "+592 766 2775",

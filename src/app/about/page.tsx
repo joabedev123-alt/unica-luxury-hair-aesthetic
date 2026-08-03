@@ -58,39 +58,162 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 2. Chay Castelo */}
+      {/* 2. Founders Biography Section */}
       <section className="py-20 md:py-28 bg-[#0B0B0B] border-y border-[#C9A14A]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <div className="lg:col-span-5 relative h-[450px] border border-[#C9A14A]/40 shadow-luxury-card group overflow-hidden order-2 lg:order-1">
-              <Image
-                src="/images/chay_castelo_hero.png"
-                alt="Chay Castelo Specialist"
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0B0B0B] via-transparent to-transparent" />
-            </div>
+          <SectionHeading
+            eyebrow="BIOGRAPHY & FOUNDERS"
+            title="Una Pareja, Una Visión"
+            subtitle="Revolucionar el mundo del cabello y la belleza estética. A jornada internacional de superação, ciência e arte de Charley Castelo e Dra. Nirza García Valdéz."
+          />
 
-            <div className="lg:col-span-7 order-1 lg:order-2">
-              <SectionHeading
-                eyebrow="THE SPECIALIST"
-                title="The Signature Behind the Transformation"
-                align="left"
-                showDivider={true}
-              />
-              <p className="text-base text-[#A6A6A6] font-light leading-relaxed mb-6">
-                Chay Castelo approaches each hair transformation with careful consultation, technical attention and an understanding of the client’s desired style. The focus is to achieve a result that looks sophisticated, balanced and naturally integrated.
-              </p>
-              <div className="bg-[#141414] border-l-2 border-[#C9A14A] p-6">
-                <p className="font-serif text-lg text-[#FFFFFF] italic">
-                  &ldquo;A true transformation respects natural movement, hair health, and individual personality.&rdquo;
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
+            {/* Charley Castelo Card */}
+            <div className="bg-[#141414] border border-[#C9A14A]/40 p-8 md:p-10 relative flex flex-col justify-between shadow-luxury-card group hover:border-[#C9A14A] transition-all duration-500">
+              <div>
+                <div className="relative h-72 w-full mb-6 overflow-hidden border border-[#C9A14A]/30">
+                  <Image
+                    src="/images/chay_castelo_hero.png"
+                    alt="Charley Castelo Specialist"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-transparent to-transparent" />
+                  <div className="absolute top-4 left-4 bg-[#050505]/90 border border-[#C9A14A]/40 text-[#C9A14A] text-[10px] uppercase tracking-widest px-3 py-1 font-semibold">
+                    {siteConfig.founders.chay.role}
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="text-2xl font-serif text-[#FFFFFF] font-bold">
+                    {siteConfig.founders.chay.name}
+                  </h3>
+                </div>
+
+                <p className="text-xs uppercase tracking-widest text-[#C9A14A] mb-4 font-semibold">
+                  Origem: {siteConfig.founders.chay.origin} • {siteConfig.founders.chay.titleRecognition}
                 </p>
-                <span className="block text-xs uppercase tracking-widest text-[#C9A14A] mt-2 font-semibold font-sans">
-                  — Chay Castelo
+
+                <p className="text-sm text-[#A6A6A6] font-light leading-relaxed mb-6">
+                  {siteConfig.founders.chay.bio}
+                </p>
+
+                <div className="border-t border-[#1D1D1D] pt-4 mb-4">
+                  <span className="text-[11px] uppercase tracking-widest text-[#C9A14A] block mb-2 font-semibold">
+                    Especializações & Academias Internacionais:
+                  </span>
+                  <div className="flex flex-wrap gap-2">
+                    {siteConfig.founders.chay.credentials.map((cred, i) => (
+                      <span key={i} className="text-xs bg-[#0B0B0B] border border-[#C9A14A]/30 px-3 py-1 text-[#E9E0D2]">
+                        {cred}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-[#0B0B0B] border-l-2 border-[#C9A14A] p-4 mt-4">
+                <p className="font-serif text-sm text-[#F4EFE6] italic">
+                  &ldquo;A persistência transforma o impossível em conquistas globais. Cada extensão de cabelo é uma obra-prima de identidade e autoestima.&rdquo;
+                </p>
+                <span className="block text-[10px] uppercase tracking-widest text-[#C9A14A] mt-2 font-semibold font-sans">
+                  — Charley Castelo
                 </span>
               </div>
             </div>
+
+            {/* Dra. Nirza García Valdéz Card */}
+            <div className="bg-[#141414] border border-[#C9A14A]/40 p-8 md:p-10 relative flex flex-col justify-between shadow-luxury-card group hover:border-[#C9A14A] transition-all duration-500">
+              <div>
+                <div className="relative h-72 w-full mb-6 overflow-hidden border border-[#C9A14A]/30">
+                  <Image
+                    src="/images/salon_exterior.png"
+                    alt="Dra. Nirza García Valdéz"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-transparent to-transparent" />
+                  <div className="absolute top-4 left-4 bg-[#050505]/90 border border-[#C9A14A]/40 text-[#C9A14A] text-[10px] uppercase tracking-widest px-3 py-1 font-semibold">
+                    {siteConfig.founders.nirza.role}
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="text-2xl font-serif text-[#FFFFFF] font-bold">
+                    {siteConfig.founders.nirza.name}
+                  </h3>
+                </div>
+
+                <p className="text-xs uppercase tracking-widest text-[#C9A14A] mb-4 font-semibold">
+                  Origem: {siteConfig.founders.nirza.origin} • {siteConfig.founders.nirza.languages}
+                </p>
+
+                <p className="text-sm text-[#A6A6A6] font-light leading-relaxed mb-6">
+                  {siteConfig.founders.nirza.bio}
+                </p>
+
+                <div className="border-t border-[#1D1D1D] pt-4 mb-4">
+                  <span className="text-[11px] uppercase tracking-widest text-[#C9A14A] block mb-2 font-semibold">
+                    Formação Médica & Certificações:
+                  </span>
+                  <div className="flex flex-wrap gap-2">
+                    {siteConfig.founders.nirza.credentials.map((cred, i) => (
+                      <span key={i} className="text-xs bg-[#0B0B0B] border border-[#C9A14A]/30 px-3 py-1 text-[#E9E0D2]">
+                        {cred}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-[#0B0B0B] border-l-2 border-[#C9A14A] p-4 mt-4">
+                <p className="font-serif text-sm text-[#F4EFE6] italic">
+                  &ldquo;A união entre a ciência médica e a estética traz segurança, precisão e uma beleza que respeita a essência humana.&rdquo;
+                </p>
+                <span className="block text-[10px] uppercase tracking-widest text-[#C9A14A] mt-2 font-semibold font-sans">
+                  — Dra. Nirza García Valdéz
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Press & Media Recognition Section */}
+      <section className="py-20 md:py-28 bg-[#050505] border-b border-[#C9A14A]/20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            eyebrow="INTERNATIONAL MEDIA"
+            title="Destaque na Imprensa Internacional"
+            subtitle="Confira a matéria 'Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética' nos principais portais de notícias globais."
+          />
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-12">
+            {siteConfig.pressArticles.map((article, idx) => (
+              <a
+                key={idx}
+                href={article.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#0B0B0B] border border-[#1D1D1D] p-5 hover:border-[#C9A14A]/80 hover:bg-[#141414] transition-all duration-300 group flex flex-col justify-between shadow-luxury-card"
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-[10px] uppercase tracking-widest text-[#C9A14A] font-bold">
+                      {article.portal}
+                    </span>
+                    <i className="bi bi-box-arrow-up-right text-xs text-[#A6A6A6] group-hover:text-[#C9A14A] transition-colors" />
+                  </div>
+                  <h4 className="text-xs text-[#F4EFE6] font-serif leading-snug group-hover:text-[#D8B86A] transition-colors line-clamp-2">
+                    &ldquo;Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética&rdquo;
+                  </h4>
+                </div>
+                <div className="mt-4 pt-3 border-t border-[#1D1D1D] flex items-center gap-1.5 text-[10px] text-[#A6A6A6] uppercase tracking-wider group-hover:text-[#C9A14A] transition-colors">
+                  <span>Ler Matéria Completa</span>
+                  <i className="bi bi-arrow-right text-xs transition-transform group-hover:translate-x-1" />
+                </div>
+              </a>
+            ))}
           </div>
         </div>
       </section>

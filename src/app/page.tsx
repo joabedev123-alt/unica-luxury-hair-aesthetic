@@ -196,37 +196,49 @@ export default function LandingPage() {
             </div>
           </div>
 
-          {/* Specialist Highlight: Chay Castelo */}
+          {/* Founders Presentation Highlight: Charley Castelo & Dr. Nirza */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7 flex flex-col items-start">
               <SectionHeading
-                eyebrow="THE SIGNATURE SPECIALIST"
-                title="Meet Chay Castelo"
+                eyebrow="FOUNDERS & VISION"
+                title="Una Pareja, Una Visión"
                 align="left"
                 showDivider={true}
               />
               <p className="text-sm md:text-base text-[#A6A6A6] font-light leading-relaxed mb-6">
-                Chay Castelo brings a personalized approach to hair transformation, combining technique, precision and a refined aesthetic vision. Every consultation is designed to understand the client’s desired result, lifestyle and natural hair before creating a tailored experience.
+                Combining surgical science, precision aesthetic medicine, and world-renowned hair extension artistry, Charley Castelo and Dr. Nirza García Valdéz unite their international journeys to revolutionize beauty, confidence, and self-esteem at Única.
               </p>
 
-              <div className="w-full bg-[#141414] border-l-2 border-[#C9A14A] p-6 mb-8">
+              <div className="w-full bg-[#141414] border-l-2 border-[#C9A14A] p-6 mb-8 shadow-luxury-card">
                 <p className="font-serif text-xl md:text-2xl text-[#FFFFFF] italic">
-                  &ldquo;More than mega hair. It’s a signature.&rdquo;
+                  &ldquo;Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética.&rdquo;
                 </p>
                 <span className="block text-xs uppercase tracking-widest text-[#C9A14A] mt-2 font-sans font-semibold">
-                  — Chay Castelo
+                  — Charley Castelo & Dr. Nirza García Valdéz
                 </span>
               </div>
+
+              <a
+                href="/about"
+                className="py-3 px-6 btn-gold-outline text-xs uppercase tracking-[0.2em] font-semibold flex items-center gap-2"
+              >
+                <span>Read Full Story & Biography</span>
+                <i className="bi bi-arrow-right text-xs" />
+              </a>
             </div>
 
-            <div className="lg:col-span-5 relative h-[450px] border border-[#C9A14A]/40 shadow-luxury-card group overflow-hidden">
+            <div className="lg:col-span-5 relative h-[480px] border-2 border-[#C9A14A]/50 shadow-gold-glow group overflow-hidden">
               <Image
-                src="/images/chay_castelo_hero.png"
-                alt="Chay Castelo Specialist"
+                src="/images/couple_founders.jpeg"
+                alt="Charley Castelo & Dr. Nirza García Valdéz - Founders of Única"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
+                priority
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent opacity-60" />
+              <div className="absolute top-4 left-4 bg-[#050505]/90 border border-[#C9A14A]/40 text-[#C9A14A] text-[10px] uppercase font-bold tracking-widest px-3.5 py-1">
+                Founders of Única
+              </div>
             </div>
           </div>
 

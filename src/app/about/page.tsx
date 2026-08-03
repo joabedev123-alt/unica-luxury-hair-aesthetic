@@ -127,8 +127,8 @@ export default function AboutPage() {
               <div>
                 <div className="relative h-72 w-full mb-6 overflow-hidden border border-[#C9A14A]/30">
                   <Image
-                    src="/images/salon_exterior.png"
-                    alt="Dr. Nirza García Valdéz"
+                    src="/images/couple_founders.jpeg"
+                    alt="Dr. Nirza García Valdéz & Charley Castelo"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                   />

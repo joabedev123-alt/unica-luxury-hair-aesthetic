@@ -63,8 +63,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="BIOGRAPHY & FOUNDERS"
-            title="Una Pareja, Una Visión"
-            subtitle="Revolucionar el mundo del cabello y la belleza estética. A jornada internacional de superação, ciência e arte de Charley Castelo e Dra. Nirza García Valdéz."
+            title="One Vision, One Journey"
+            subtitle="Revolutionizing hair extensions and aesthetic beauty through science, precision, and passion."
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
@@ -91,7 +91,7 @@ export default function AboutPage() {
                 </div>
 
                 <p className="text-xs uppercase tracking-widest text-[#C9A14A] mb-4 font-semibold">
-                  Origem: {siteConfig.founders.chay.origin} • {siteConfig.founders.chay.titleRecognition}
+                  Origin: {siteConfig.founders.chay.origin} • {siteConfig.founders.chay.titleRecognition}
                 </p>
 
                 <p className="text-sm text-[#A6A6A6] font-light leading-relaxed mb-6">
@@ -100,7 +100,7 @@ export default function AboutPage() {
 
                 <div className="border-t border-[#1D1D1D] pt-4 mb-4">
                   <span className="text-[11px] uppercase tracking-widest text-[#C9A14A] block mb-2 font-semibold">
-                    Especializações & Academias Internacionais:
+                    Specialized Credentials & International Academies:
                   </span>
                   <div className="flex flex-wrap gap-2">
                     {siteConfig.founders.chay.credentials.map((cred, i) => (
@@ -114,7 +114,7 @@ export default function AboutPage() {
 
               <div className="bg-[#0B0B0B] border-l-2 border-[#C9A14A] p-4 mt-4">
                 <p className="font-serif text-sm text-[#F4EFE6] italic">
-                  &ldquo;A persistência transforma o impossível em conquistas globais. Cada extensão de cabelo é uma obra-prima de identidade e autoestima.&rdquo;
+                  &ldquo;Persistence turns the impossible into global achievements. Every extension set is a signature of confidence.&rdquo;
                 </p>
                 <span className="block text-[10px] uppercase tracking-widest text-[#C9A14A] mt-2 font-semibold font-sans">
                   — Charley Castelo
@@ -122,13 +122,13 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Dra. Nirza García Valdéz Card */}
+            {/* Dr. Nirza García Valdéz Card */}
             <div className="bg-[#141414] border border-[#C9A14A]/40 p-8 md:p-10 relative flex flex-col justify-between shadow-luxury-card group hover:border-[#C9A14A] transition-all duration-500">
               <div>
                 <div className="relative h-72 w-full mb-6 overflow-hidden border border-[#C9A14A]/30">
                   <Image
                     src="/images/salon_exterior.png"
-                    alt="Dra. Nirza García Valdéz"
+                    alt="Dr. Nirza García Valdéz"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -145,7 +145,7 @@ export default function AboutPage() {
                 </div>
 
                 <p className="text-xs uppercase tracking-widest text-[#C9A14A] mb-4 font-semibold">
-                  Origem: {siteConfig.founders.nirza.origin} • {siteConfig.founders.nirza.languages}
+                  Origin: {siteConfig.founders.nirza.origin} • {siteConfig.founders.nirza.languages}
                 </p>
 
                 <p className="text-sm text-[#A6A6A6] font-light leading-relaxed mb-6">
@@ -154,7 +154,7 @@ export default function AboutPage() {
 
                 <div className="border-t border-[#1D1D1D] pt-4 mb-4">
                   <span className="text-[11px] uppercase tracking-widest text-[#C9A14A] block mb-2 font-semibold">
-                    Formação Médica & Certificações:
+                    Medical Background & Specialization:
                   </span>
                   <div className="flex flex-wrap gap-2">
                     {siteConfig.founders.nirza.credentials.map((cred, i) => (
@@ -168,10 +168,10 @@ export default function AboutPage() {
 
               <div className="bg-[#0B0B0B] border-l-2 border-[#C9A14A] p-4 mt-4">
                 <p className="font-serif text-sm text-[#F4EFE6] italic">
-                  &ldquo;A união entre a ciência médica e a estética traz segurança, precisão e uma beleza que respeita a essência humana.&rdquo;
+                  &ldquo;Combining medical science with advanced aesthetics delivers safety, clinical precision, and refined natural beauty.&rdquo;
                 </p>
                 <span className="block text-[10px] uppercase tracking-widest text-[#C9A14A] mt-2 font-semibold font-sans">
-                  — Dra. Nirza García Valdéz
+                  — Dr. Nirza García Valdéz
                 </span>
               </div>
             </div>
@@ -184,8 +184,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="INTERNATIONAL MEDIA"
-            title="Destaque na Imprensa Internacional"
-            subtitle="Confira a matéria 'Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética' nos principais portais de notícias globais."
+            title="Featured in International Press"
+            subtitle="Explore the global coverage of 'Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética' across leading media outlets."
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-12">
@@ -209,7 +209,7 @@ export default function AboutPage() {
                   </h4>
                 </div>
                 <div className="mt-4 pt-3 border-t border-[#1D1D1D] flex items-center gap-1.5 text-[10px] text-[#A6A6A6] uppercase tracking-wider group-hover:text-[#C9A14A] transition-colors">
-                  <span>Ler Matéria Completa</span>
+                  <span>Read Article</span>
                   <i className="bi bi-arrow-right text-xs transition-transform group-hover:translate-x-1" />
                 </div>
               </a>

@@ -34,22 +34,22 @@ export const siteConfig = {
   positioning: "A premium hair and aesthetics destination focused on personalized service, natural-looking transformations, precision and exclusivity.",
 
   founders: {
-    title: "Una Pareja, Una Visión: Revolucionar el Mundo del Cabello y la Belleza Estética",
+    title: "One Vision, One Journey: Revolutionizing Hair & Aesthetic Beauty",
     chay: {
       name: "Charley Froz Castelo (Chay Castelo)",
-      role: "Founder & Master Hair Stylist",
+      role: "Founder & Master Extension Specialist",
       origin: "Porto de Moz, Pará (Brazil)",
       credentials: ["Toni & Guy", "Llongueras", "Mod’s Hair"],
       titleRecognition: "Soul Global Ambassador (2026)",
-      bio: "Nascido em Porto de Moz, no interior do Brasil, Charley Castelo superou graves adversidades da juventude e desafios econômicos até se tornar uma referência internacional na beleza. Autodidata a partir de 2009, aperfeiçoou-se nas mais prestigiadas academias da Europa e do Brasil, criando a renomada técnica Chay Castelo Mega Hair Tela Technique. Em 2026, foi nomeado Embaixador Global da Soul.",
+      bio: "Born in Porto de Moz, Brazil, Charley Castelo overcame early adversity and economic challenges to become an internationally recognized beauty specialist. Self-taught since 2009, he refined his craft at world-renowned academies across Europe and Brazil, pioneering the signature Chay Castelo Mega Hair Tela Technique. In 2026, he was named Global Ambassador for Soul.",
     },
     nirza: {
-      name: "Dra. Nirza García Valdéz",
-      role: "Co-Founder & Aesthetic Medicine Specialist",
+      name: "Dr. Nirza García Valdéz",
+      role: "Co-Founder & Aesthetic Specialist",
       origin: "Bayamo, Cuba",
-      credentials: ["Medicina (Havana, 2014)", "Cirurgia Geral (2018)", "Beauty Angels Academy (USA)"],
-      languages: "Fluente em 5 idiomas",
-      bio: "Graduada em Medicina em Havana (2014) e especialista em Cirurgia Geral (2018), Dra. Nirza dedicou anos de sua vida ao serviço médico e humanitário pela Amazônia boliviana, África e Guiana, onde atuou como uma das poucas cirurgiãs cubanas no principal hospital do país. Expandiu sua atuação para a micropigmentação estética e estética avançada certificada pela Beauty Angels Academy dos Estados Unidos, trazendo rigor científico, biossegurança e precisão cirúrgica para a Única.",
+      credentials: ["Doctor of Medicine (Havana, 2014)", "General Surgery (2018)", "Beauty Angels Academy Certified (USA)"],
+      languages: "Fluent in 5 Languages",
+      bio: "Graduating in Medicine in Havana (2014) and completing her specialization in General Surgery (2018), Dr. Nirza dedicated years to medical and humanitarian service across the Bolivian Amazon, Africa, and Guyana, where she served as a pioneer surgeon at the nation's principal hospital. Expanding into advanced aesthetic micropigmentation certified by the USA Beauty Angels Academy, she brings surgical precision, skin safety, and clinical rigor to Única.",
     },
   },
 

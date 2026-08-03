@@ -71,15 +71,14 @@ export default function AboutPage() {
             {/* Charley Castelo Card */}
             <div className="bg-[#141414] border border-[#C9A14A]/40 p-8 md:p-10 relative flex flex-col justify-between shadow-luxury-card group hover:border-[#C9A14A] transition-all duration-500">
               <div>
-                <div className="relative h-72 w-full mb-6 overflow-hidden border border-[#C9A14A]/30">
+                <div className="relative h-80 sm:h-96 w-full mb-6 overflow-hidden border border-[#C9A14A]/30 bg-[#050505]">
                   <Image
                     src="/images/chay_castelo_hero.png"
                     alt="Charley Castelo Specialist"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain p-2 transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-transparent to-transparent" />
-                  <div className="absolute top-4 left-4 bg-[#050505]/90 border border-[#C9A14A]/40 text-[#C9A14A] text-[10px] uppercase tracking-widest px-3 py-1 font-semibold">
+                  <div className="absolute top-4 left-4 z-10 bg-[#050505]/90 border border-[#C9A14A]/40 text-[#C9A14A] text-[10px] uppercase tracking-widest px-3 py-1 font-semibold backdrop-blur-md">
                     {siteConfig.founders.chay.role}
                   </div>
                 </div>
@@ -125,15 +124,14 @@ export default function AboutPage() {
             {/* Dr. Nirza García Valdéz Card */}
             <div className="bg-[#141414] border border-[#C9A14A]/40 p-8 md:p-10 relative flex flex-col justify-between shadow-luxury-card group hover:border-[#C9A14A] transition-all duration-500">
               <div>
-                <div className="relative h-72 w-full mb-6 overflow-hidden border border-[#C9A14A]/30">
+                <div className="relative h-80 sm:h-96 w-full mb-6 overflow-hidden border border-[#C9A14A]/30 bg-[#050505]">
                   <Image
                     src="/images/couple_founders.jpeg"
                     alt="Dr. Nirza García Valdéz & Charley Castelo"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain p-2 transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-transparent to-transparent" />
-                  <div className="absolute top-4 left-4 bg-[#050505]/90 border border-[#C9A14A]/40 text-[#C9A14A] text-[10px] uppercase tracking-widest px-3 py-1 font-semibold">
+                  <div className="absolute top-4 left-4 z-10 bg-[#050505]/90 border border-[#C9A14A]/40 text-[#C9A14A] text-[10px] uppercase tracking-widest px-3 py-1 font-semibold backdrop-blur-md">
                     {siteConfig.founders.nirza.role}
                   </div>
                 </div>

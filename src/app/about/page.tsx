@@ -122,13 +122,13 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Dr. Nirza García Valdéz Card */}
+            {/* Dr. Nirza García Valdés Card */}
             <div className="bg-[#141414] border border-[#C9A14A]/40 p-8 md:p-10 relative flex flex-col justify-between shadow-luxury-card group hover:border-[#C9A14A] transition-all duration-500">
               <div>
                 <div className="relative h-80 sm:h-[400px] w-full mb-6 overflow-hidden border border-[#C9A14A]/30 bg-[#050505]">
                   <Image
                     src="/images/couple_founders.jpeg"
-                    alt="Dr. Nirza García Valdéz & Charley Castelo"
+                    alt="Dr. Nirza García Valdés & Charley Castelo"
                     fill
                     className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   />
@@ -171,7 +171,7 @@ export default function AboutPage() {
                   &ldquo;Combining medical science with advanced aesthetics delivers safety, clinical precision, and refined natural beauty.&rdquo;
                 </p>
                 <span className="block text-[10px] uppercase tracking-widest text-[#C9A14A] mt-2 font-semibold font-sans">
-                  — Dr. Nirza García Valdéz
+                  — Dr. Nirza García Valdés
                 </span>
               </div>
             </div>
@@ -215,7 +215,7 @@ export default function AboutPage() {
                   Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética
                 </h3>
                 <p className="text-sm text-[#A6A6A6] font-light leading-relaxed mb-4">
-                  Confira a reportagem em destaque na Forbes Latina sobre a trajetória da Dra. Nirza García Valdéz e Charley Castelo, unindo ciência cirúrgica, estética avançada e a técnica exclusiva Mega Hair Tela.
+                  Confira a reportagem em destaque na Forbes Latina sobre a trajetória da Dra. Nirza García Valdés e Charley Castelo, unindo ciência cirúrgica, estética avançada e a técnica exclusiva Mega Hair Tela.
                 </p>
               </div>
 

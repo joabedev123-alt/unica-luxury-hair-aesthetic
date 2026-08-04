@@ -166,7 +166,7 @@ export default function ServicesPage() {
       {/* 13.5 AVISO SOBRE VALORES */}
       <section className="py-12 bg-[#050505] border-t border-[#C9A14A]/30 text-center">
         <div className="max-w-3xl mx-auto px-4">
-          <i className="bi bi-[#C9A14A] bi-shield-exclamation text-2xl text-[#C9A14A] mb-3 block" />
+          <i className="bi bi-shield-exclamation text-2xl text-[#C9A14A] mb-3 block" />
           <p className="text-xs md:text-sm text-[#A6A6A6] font-light leading-relaxed">
             Service availability, suitability and personalized estimates are confirmed directly with Única upon consultation before booking.
           </p>

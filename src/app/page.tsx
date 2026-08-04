@@ -206,7 +206,7 @@ export default function LandingPage() {
                 showDivider={true}
               />
               <p className="text-sm md:text-base text-[#A6A6A6] font-light leading-relaxed mb-6">
-                Combining surgical science, precision aesthetic medicine, and world-renowned hair extension artistry, Charley Castelo and Dr. Nirza García Valdéz unite their international journeys to revolutionize beauty, confidence, and self-esteem at Única.
+                Combining surgical science, precision aesthetic medicine, and world-renowned hair extension artistry, Charley Castelo and Dr. Nirza García Valdés unite their international journeys to revolutionize beauty, confidence, and self-esteem at Única.
               </p>
 
               <div className="w-full bg-[#141414] border-l-2 border-[#C9A14A] p-6 mb-8 shadow-luxury-card">
@@ -214,7 +214,7 @@ export default function LandingPage() {
                   &ldquo;Una pareja, una visión: revolucionar el mundo del cabello y la belleza estética.&rdquo;
                 </p>
                 <span className="block text-xs uppercase tracking-widest text-[#C9A14A] mt-2 font-sans font-semibold">
-                  — Charley Castelo & Dr. Nirza García Valdéz
+                  — Charley Castelo & Dr. Nirza García Valdés
                 </span>
               </div>
 
@@ -230,7 +230,7 @@ export default function LandingPage() {
             <div className="lg:col-span-5 relative h-[420px] sm:h-[500px] border-2 border-[#C9A14A]/50 shadow-gold-glow group overflow-hidden bg-[#050505]">
               <Image
                 src="/images/couple_founders.jpeg"
-                alt="Charley Castelo & Dr. Nirza García Valdéz - Founders of Única"
+                alt="Charley Castelo & Dr. Nirza García Valdés - Founders of Única"
                 fill
                 className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
                 priority
@@ -333,7 +333,7 @@ export default function LandingPage() {
             <div className="bg-[#141414] border border-[#1D1D1D] p-6 hover:border-[#C9A14A]/60 transition-all duration-300 flex flex-col justify-between">
               <div>
                 <div className="w-12 h-12 rounded-full border border-[#C9A14A]/40 bg-[#0B0B0B] text-[#C9A14A] flex items-center justify-center text-xl mb-4">
-                  <i className="bi bi-[#C9A14A] bi-feather" />
+                  <i className="bi bi-feather" />
                 </div>
                 <h3 className="text-xl font-serif text-[#FFFFFF] mb-2">1. Lightweight & Comfortable</h3>
                 <p className="text-xs text-[#A6A6A6] font-light leading-relaxed">

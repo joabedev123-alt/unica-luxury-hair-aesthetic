@@ -40,7 +40,7 @@ export default function ContactPage() {
               className="bg-[#0B0B0B] border border-[#1D1D1D] p-6 hover:border-[#C9A14A]/60 transition-all duration-300 group flex flex-col justify-between"
             >
               <div>
-                <i className="bi bi-[#C9A14A] bi-whatsapp text-2xl text-[#25D366] mb-4 block" />
+                <i className="bi bi-whatsapp text-2xl text-[#25D366] mb-4 block" />
                 <h4 className="text-lg font-serif text-[#FFFFFF] group-hover:text-[#D8B86A] transition-colors mb-1">
                   WhatsApp Direct
                 </h4>

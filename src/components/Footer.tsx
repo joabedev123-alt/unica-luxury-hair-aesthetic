@@ -144,7 +144,7 @@ export const Footer: React.FC = () => {
                 </span>
               </div>
               <div className="flex items-center gap-3">
-                <i className="bi bi-[#C9A14A] bi-whatsapp text-[#C9A14A] text-base" />
+                <i className="bi bi-whatsapp text-[#C9A14A] text-base" />
                 <a
                   href={siteConfig.contact.whatsappLink}
                   target="_blank"
@@ -155,7 +155,7 @@ export const Footer: React.FC = () => {
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <i className="bi bi-[#C9A14A] bi-person text-[#C9A14A] text-base" />
+                <i className="bi bi-person text-[#C9A14A] text-base" />
                 <span>Specialist: {siteConfig.specialist}</span>
               </div>
             </div>

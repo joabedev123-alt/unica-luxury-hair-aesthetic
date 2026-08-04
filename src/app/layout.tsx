@@ -6,6 +6,7 @@ import { WhatsAppButton } from '@/components/WhatsAppButton';
 import { StructuredData } from '@/components/StructuredData';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://unicaguyana.com'),
   title: {
     default: 'Única Hair Extensions | Hair and Beauty in Guyana',
     template: '%s | Única Hair Extensions',

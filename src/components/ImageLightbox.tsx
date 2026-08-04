@@ -36,7 +36,7 @@ export const ImageLightbox: React.FC<ImageLightboxProps> = ({ project, onClose }
       <div className="absolute inset-0" onClick={onClose} />
 
       {/* Modal Box */}
-      <div className="relative z-10 bg-[#0B0B0B] border border-[#C9A14A]/40 max-w-4xl w-full overflow-hidden shadow-2xl flex flex-col md:flex-row">
+      <div className="relative z-10 bg-[#0B0B0B] border border-[#C9A14A]/40 max-w-4xl w-full max-h-[90vh] md:max-h-none overflow-y-auto md:overflow-hidden shadow-2xl flex flex-col md:flex-row">
         {/* Close Button */}
         <button
           onClick={onClose}
@@ -52,7 +52,7 @@ export const ImageLightbox: React.FC<ImageLightboxProps> = ({ project, onClose }
             src={project.image}
             alt={project.title}
             fill
-            className="object-cover"
+            className="object-contain p-2"
           />
         </div>
 
